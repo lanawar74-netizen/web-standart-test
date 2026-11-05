@@ -38,7 +38,7 @@ const httpQuestions=[
 const choices=['HTML' ,'CSS','JavaScript','Уеб сървър','HTTP'];
 const scores={1:0,2:0,3:0,5:0,6:0};let checked={};
 // ПОСТАВЕТЕ ТУК URL НА ПУБЛИКУВАНОТО GOOGLE APPS SCRIPT WEB APP (/exec).
-const SHEETS_WEB_APP_URL='https://script.google.com/a/macros/vicho-grancharov.eu/s/AKfycbw1jY24fZlOROVHmx-tqTccAj3BIMydJuRfGeIXydG4hbnImcKDPJoaPTvMb3TwbBZe/exec';
+const SHEETS_WEB_APP_URL='https://script.google.com/a/macros/vicho-grancharov.eu/s/AKfycbzqNcMslErkNc776536p_vMHFuDbTXkD7f5Crd_KGvQZtmzAMxwzWLKF-QyoSf9fGM/exec';
 let attemptId=crypto.randomUUID?crypto.randomUUID():String(Date.now())+'-'+Math.random().toString(36).slice(2);
 let revision=0;let pendingSubmission=null;let submitted=false;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
